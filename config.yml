@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "SpatialAPI@ACM SIGSPATIAL 2022"
   Description: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2022"
-  Date: "November 2, 2022, Pacific Time"
+  Date: "November 1, 2022, Pacific Time"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "TBA"
   Address: "TBA"
