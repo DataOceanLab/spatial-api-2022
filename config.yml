@@ -1,0 +1,164 @@
+baseurl: "https://dataoceanlab.github.io/spatial-api-2022"
+title: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2022"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "SpatialAPI@ACM SIGSPATIAL 2022"
+  Description: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2022"
+  Date: "November 2, 2022, Pacific Time"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: "TBA"
+  Address: "TBA"
+  City:  "Seattle"
+  State: "Washington"
+  Images: ["/img/logo.png"]
+  big_logo: "/images/acmsigspatial-full.png"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - intro
+    - organizer
+    - speakers
+    - schedule    
+    - location
+    - cfp
+    - deadline
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    intro: "About"
+    location: "Location"
+    cfp: "Call For Tutorials"
+    organizer: "Organization Committee"
+    speakers: "Invited Tutorial"
+    schedule: "Schedule"
+    deadline: "Important Dates"
+    # sponsors: "Sponsors"
+    # partners: "Partners"
+    # contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now"
+    link: "https://sigspatial2022.sigspatial.org/registration/"
+
+  intro:
+    text: "The 4th ACM SIGSPATIAL International Workshop on APIs and Libraries for Geospatial Data Science (SpatialAPI 2022) is to provide students and researchers with hands-on experience with useful APIs and libraries related to geospatial data science, spanning from spatial big data management to advanced analytics enabled by machine learning, optimization, and more. At the same time, it gives an opportunity for API providers to reach out to targeted audiences who can benefit from their APIs. The API providers will be able to get direct feedback for their users to understand how to further improve their APIs and make them more user-friendly. The tutorials will be done in a classroom-style setting where the audience will bring their laptops to follow the directions of the presenter."
+
+  cfp:
+    text: "The workshop is calling for tutorial proposals from the community. Each accepted tutorial will have two 45-minute sessions to conduct their hands-on tutorial. In addition, each presenter will have the
+opportunity to give a teaser presentation of 5 minutes to attract the audience to attend their tutorial. Interested participants should submit a tutorial proposal in ACM format
+(https://www.acm.org/publications/proceedings-template). This proposal must be no more than 2 pages and contain the content listed in the PDF version of CFP."
+    url: "https://dataoceanlab.github.io/spatial-api-2021/files/CFP21.pdf"
+    keywords: [""]
+
+  organizer:
+    pc_chair: ["Yiqun Xie (University of Maryland)", 
+    "Jia Yu (Washington State University, Apache Software Foundation)"]
+    pc_member: ["Peter Baumann (Jacobs University Bremen)", "Ahmed Eldawy (University of California, Riverside)", "Amr Magdy (University of California, Riverside)", "Janet Reyes (University of California, Riverside)", "Ibrahim Sabek (Massachusetts Institute of Technology)", "Martin Werner (Technical University of Munich)"]
+
+  deadline:
+    submission: "August 31, 2022 (anywhere on earth)"
+    notification: "September 25, 2022 (anywhere on earth) (extended)"
+    camera: "October 10, 2022"
+    workshopdate: "November 2, 2022"
+    submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
+
+  Speakers: 
+    # - name: "James Kyle, Jeff Ho, Eugene Chong, Michael Grazziani"
+    #   photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
+    #   company: "SafeGraph"
+    #   talk: 
+    #     title: "Understand Consumer Behavior With Verified Foot Traffic Data"
+    #     href: "https://www.safegraph.com/events/safegraph-sigspatial-2021"
+    #     abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      # link:
+      #   twitter: "http://twitter.com/linus"
+      #   github: "http://github.com/linus"
+      #   linkedin: "http://linkedin.com/linus"
+
+  schedule:
+    # - title: "Opening remarks"
+    #   time: "11-02 09:00"
+    #   beijing: "11-03 00:00"
+    #   duration: "10 min"
+    #   abstract: "Foreword"
+    #   file:
+    #   authors: ""
+    # - title: "Understand Consumer Behavior With Verified Foot Traffic Data"
+    #   time: "11-02 09:10"
+    #   beijing: "11-03 00:10"
+    #   abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+    #   file:
+    #   prep: "https://github.com/SafeGraphInc/sigspatial-2021-cafe-analysis"
+    #   authors: "SafeGraph"
+    #   duration: "90 min"
+    #   video: "https://www.youtube.com/embed/_P_0qM-B388"
+    # - title: "Break"
+    #   time: "11-02 10:40"
+    #   beijing: "11-03 01:40"
+    #   abstract: "Foreword"
+    #   file:
+    #   authors: ""      
+    #   duration: "10 min"
+    # - title: "MobilityDB: Hands on Tutorial on Managing and Visualizing Geospatial Trajectories in SQL"
+    #   time: "11-02 10:50"
+    #   beijing: "11-03 01:50"
+    #   abstract: "MobilityDB is an open source moving object database. It extends PostgreSQL and PostGIS with types and operations for managing continuous geospatial trajectories. This hand-on tutorial will introduce the attendees to: (1) trajectory data management in MobilityDB, (2) visualization of moving object data in QGIS, and (3) distributed spatiotemporal query processing using MobilityDB. All the tutorial queries will be in SQL."
+    #   file: "paper_3.pdf"
+    #   authors: "Esteban Zimányi, Mahmoud Sakr, Mohamed Bakli Maxime Schomans, Dimitris Tsesmelis, Robin Choquet (Université libre de Bruxelles)"            
+    #   duration: "90 min"
+    #   video: "https://www.youtube.com/embed/titgXKp0kms"
+    # - title: "Lunch Break"
+    #   time: "11-02 12:20"
+    #   beijing: "11-03 03:20"
+    #   abstract: "Foreword"
+    #   file:
+    #   authors: ""      
+    #   duration: "40 min"
+    # - title: "The OGC/ISO Coverage API Standards: Heavy-Lifting APIs for Massive Multi-Dimensional Data"
+    #   time: "11-02 13:00"
+    #   beijing: "11-03 04:00"
+    #   authors: "Peter Baumann (Jacobs University)"       
+    #   abstract: "In this tutorial, we first briefly recapitulate the coverage model and simple access with WCS Core, address the status of OAPICoverages, and then proceed to datacube analytics with WPCS. Practical demos based on the EarthServer datacube federation serve to illustrate; participants can recap and modify most of the demos. Altogether, this workshop constitutes a unique opportunity for getting up to speed with coverages and datacubes."
+    #   file: "paper_7.pdf"
+    #   duration: "90 min"
+    #   video: "https://www.youtube.com/embed/h_x4lOR3d1k"
+    # - title: "A Brief Introduction to Geospatial Big Data Analytics with Apache AsterixDB"
+    #   time: "11-02 14:30"
+    #   beijing: "11-03 05:30"
+    #   abstract: "This tutorial introduces Apache AsterixDB, a scalable open-source Big Data Management System, which supports standard vector spatial data types as well as non-spatial attributes, e.g., numerical, temporal, and textual. The participants will get hands-on experience on how Apache AsterixDB can efficiently process complex SQL++ queries that require multiple special handling by a team from its kitchen."
+    #   file: "paper_6.pdf"
+    #   authors: "Akil Sevim, Mehnaz Tabassum Mahin, Tin Vu, Ian Maxon, Ahmed Eldawy, Michael Carey, Vassilis Tsotras (University of California, Riverside and University of California, Irvine)"                 
+    #   duration: "30 min"
+    #   video: "https://www.youtube.com/embed/gJe3nqERQ64"
+    # - title: "CyberGIS-Compute for enabling computationally intensive geospatial research"
+    #   time: "11-02 15:00"
+    #   beijing: "11-03 06:00"
+    #   abstract: "In this tutorial, we will first start with the basics of CyberGISJupyter and CyberGIS-Compute, then introduce the Python SDK for CyberGIS-Compute with a simple Hello World example. Then, we will take multiple real-world geospatial applications use-cases like spatial accessibility and wildfire evacuation simulation using agent based modeling. We will also provide pointers on how to contribute applications to the CyberGIS-Compute framework."
+    #   file: "paper_5.pdf"
+    #   authors: "Anand Padmanabhan, Ximo Ziao, Rebecca C. Vandewalle, Furqan Baig, Alexander Michel, Zhiyu Li, Shaowen Wang (University of Illinois at Urbana Champaign)"      
+    #   duration: "30 min"
+    #   video: "https://www.youtube.com/embed/q976uxOPg84"
+    # - title: "Interactive Mapping and Geospatial Analysis with Leafmap and Jupyter"
+    #   time: "11-02 15:30"
+    #   beijing: "11-03 06:30"
+    #   abstract: "This workshop will introduce the key features of leafmap for interactive mapping and geo spatial analysis in a Jupyter environment. Attendees will learn how to leverage open-source Python packages and free cloud computing platforms for geospatial analysis and data visualization."
+    #   file: "paper_1.pdf"
+    #   authors: "Qiusheng Wu (University of Tennessee, Knoxville)"
+    #   duration: "30 min"
+    #   video: "https://www.youtube.com/embed/2K6zZGuuRTo"
+    # - title: "Closing remarks"
+    #   time: "11-02 16:00"
+    #   beijing: "11-03 07:00"
+    #   abstract: "Foreword"
+    #   file:
+    #   authors: ""
+    #   duration: "10 min"
