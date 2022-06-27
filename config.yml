@@ -56,7 +56,7 @@ params:
     text: "The workshop is calling for tutorial proposals from the community. Each accepted tutorial will have two 45-minute sessions to conduct their hands-on tutorial. In addition, each presenter will have the
 opportunity to give a teaser presentation of 5 minutes to attract the audience to attend their tutorial. Interested participants should submit a tutorial proposal in ACM format
 (https://www.acm.org/publications/proceedings-template). This proposal must be no more than 2 pages and contain the content listed in the PDF version of CFP."
-    url: "https://dataoceanlab.github.io/spatial-api-2021/files/CFP21.pdf"
+    url: "https://dataoceanlab.github.io/spatial-api-2022/files/CFP22.pdf"
     keywords: [""]
 
   organizer:
@@ -68,8 +68,8 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
     submission: "August 31, 2022 (anywhere on earth)"
     notification: "September 25, 2022 (anywhere on earth) (extended)"
     camera: "October 10, 2022"
-    workshopdate: "November 2, 2022"
-    submissionsite: "https://easychair.org/my/conference?conf=spatialapi21"
+    workshopdate: "November 1, 2022"
+    submissionsite: "https://easychair.org/conferences/?conf=spatialapi22"
 
   Speakers: 
     # - name: "James Kyle, Jeff Ho, Eugene Chong, Michael Grazziani"
