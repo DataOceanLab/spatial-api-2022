@@ -65,20 +65,20 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
     pc_member: ["Peter Baumann (Jacobs University Bremen)", "Ahmed Eldawy (University of California, Riverside)", "Amr Magdy (University of California, Riverside)", "Janet Reyes (University of California, Riverside)", "Ibrahim Sabek (Massachusetts Institute of Technology)", "Martin Werner (Technical University of Munich)"]
 
   deadline:
-    submission: "August 31, 2022 (anywhere on earth)"
-    notification: "September 25, 2022 (anywhere on earth) (extended)"
+    submission: "September 15, 2022 (anywhere on earth) (extended)"
+    notification: "September 25, 2022 (anywhere on earth)"
     camera: "October 10, 2022"
     workshopdate: "November 1, 2022"
     submissionsite: "https://easychair.org/conferences/?conf=spatialapi22"
 
   Speakers: 
-    # - name: "James Kyle, Jeff Ho, Eugene Chong, Michael Grazziani"
+    - name: "Xiaoji Chen"
     #   photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
-    #   company: "SafeGraph"
-    #   talk: 
-    #     title: "Understand Consumer Behavior With Verified Foot Traffic Data"
-    #     href: "https://www.safegraph.com/events/safegraph-sigspatial-2021"
-    #     abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      company: "Vis.gl"
+      talk: 
+        title: "TBA"
+        href: "TDA"
+        abstract: "Xiaoji Chen is the top 1 contributor of deck.gl, a well-known WebGL-powered framework for visual exploratory data analysis of large datasets. deck.gl has over 10K stars on GitHub."
       # link:
       #   twitter: "http://twitter.com/linus"
       #   github: "http://github.com/linus"
