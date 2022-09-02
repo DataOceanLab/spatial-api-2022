@@ -78,7 +78,7 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
       talk: 
         title: "TBA"
         href: "TDA"
-        abstract: "Xiaoji Chen is the top 1 contributor of deck.gl, a well-known WebGL-powered framework for visual exploratory data analysis of large datasets. deck.gl has over 10K stars on GitHub."
+        abstract: "Xiaoji Chen is the top 1 contributor of deck.gl, the well-known WebGL-powered framework for visual exploratory data analysis of large datasets. deck.gl has over 10K stars on GitHub."
       # link:
       #   twitter: "http://twitter.com/linus"
       #   github: "http://github.com/linus"
