@@ -23,7 +23,9 @@
     </h4>
 
     <p class="speakers-bio">{{ .talk.abstract }}</p>    
-  
+    <p class="speakers-bio">{{ .talk.bio }}</p>    
+    {{ .talk.imageintro}}<br>
+    <img src="{{ .talk.image }}" width="500">
   </li>
 {{ end }}
 </ul>

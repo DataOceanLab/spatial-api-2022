@@ -73,12 +73,15 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
 
   Speakers: 
     - name: "Xiaoji Chen"
-      photo: "https://avatars.githubusercontent.com/u/46735142?s=200&v=4"
+      photo: "/images/xiaoji-sm.jpeg"
       company: "Vis.gl"
       talk: 
-        title: "TBA"
-        href: "TDA"
-        abstract: "Xiaoji Chen is the top 1 contributor of deck.gl, the well-known WebGL-powered framework for visual exploratory data analysis of large datasets. deck.gl has over 10K stars on GitHub."
+        title: "WebGL-Powered Large-Scale Data Visualization with deck.gl"
+        href: "#schedule"
+        abstract: "deck.gl(https://deck.gl) is an MIT-licensed state-of-the-art open-source library for data visualization on the Web. Powered by WebGL, it is specially optimized for large-scale, high-performance, and interactive data applications. It is widely adopted in building web-based solutions for geospatial data analysis, transportation, environmental monitoring, medical imaging, robotics/autonomy, as well as a growing catalog of products and domains. deck.gl is accompanied by a suite of open source projects, known as vis.gl, to work with the most popular base map providers and data formats. Its development is in open governance with a vibrant community, overseen by the OpenJS Foundation (https://openjsf.org) and sponsored by industry leaders including ESRI, Google, Cesium, Foursquare, CARTO, and Microsoft."
+        bio: "Xiaoji is a Principal Software Engineer, Microsoft Research, and leads the technical steering committee of vis.gl, OpenJS Foundation"
+        image: "/images/deckgl-feature.jpg"
+        imageintro: "Access to radio stations in the United States (visualization of AM/FM radio coverage based on FCC registrations) By Xiaoji Chen, 2021"
       # link:
       #   twitter: "http://twitter.com/linus"
       #   github: "http://github.com/linus"
@@ -92,10 +95,10 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
     #   abstract: "Foreword"
     #   file:
     #   authors: ""
-    # - title: "Understand Consumer Behavior With Verified Foot Traffic Data"
-    #   time: "11-02 09:10"
-    #   beijing: "11-03 00:10"
-    #   abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+    - title: "WebGL-Powered Large-Scale Data Visualization with deck.gl"
+      time: "TBD"
+      beijing: "TBD"
+      abstract: "This workshop will come in two parts. ---Part I: Start visualizing data with deck.gl. We will talk about a few core concepts of the library and convert some datasets into interesting maps in minutes. This part demonstrates the general capability of the library. No prior experience is required; ---Part II: Advanced deck.gl applications. We will build a few custom visualization layers for real-world use cases. This part demonstrates the highly-customizable design of the library's API. Some knowledge of JavaScript and computer graphics will be helpful."
     #   file:
     #   prep: "https://github.com/SafeGraphInc/sigspatial-2021-cafe-analysis"
     #   authors: "SafeGraph"
