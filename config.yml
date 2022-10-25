@@ -11,7 +11,7 @@ params:
   Description: "International Workshop on APIs and Libraries for Geospatial Data Science@ACM SIGSPATIAL 2022"
   Date: "November 1, 2022, Pacific Time"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "TBA"
+  Venue: "Seattle Marriott Waterfront"
   Address: "TBA"
   City:  "Seattle"
   State: "Washington"
@@ -82,6 +82,14 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
         bio: "Xiaoji is a Principal Software Engineer, Microsoft Research, and leads the technical steering committee of vis.gl, OpenJS Foundation"
         image: "/images/deckgl-feature.jpg"
         imageintro: "Access to radio stations in the United States (visualization of AM/FM radio coverage based on FCC registrations) By Xiaoji Chen, 2021"
+    - name: "Tomal Majumder, Ahmed Eldawy"
+      photo: "/images/eldawy.jpeg"
+      company: "Vis.gl"
+      talk: 
+        title: "How to Make Your Results Reproducible with UCR-Star and Spider"
+        href: "#schedule"
+        abstract: "UCR-Star is an interactive repository that hosts terabytes of open geospatial data. In addition to the ability to explore and visualize this data, UCR-Star makes it easy to share all or parts of these datasets in many standard formats ensuring that other researchers can get the same exact data mentioned in the paper. Spider is a spatial data generator that generates standardized spatial datasets with full control over the data characteristics which further promotes the reproducibility of results."
+        bio: "Ahmed Eldawy is an Associate Professor in Computer Science at the University of California Riverside. His research interests lie in the broad area of databases with a focus on big data management and spatial data processing. Ahmed is the main inventor of SpatialHadoop, the most comprehensive open source system for big spatial data management. Ahmed has many collaborators in industrial research labs including Microsoft Research and IBM Watson. He was awarded the Quality Metrics Fellowship in 2016, Doctoral Dissertation Fellowship in 2015, and Best Poster Runner-up award in ICDE 2014. His work is supported by the National Science Foundation (NSF) and the US Department of Agriculture (USDA)."
       # link:
       #   twitter: "http://twitter.com/linus"
       #   github: "http://github.com/linus"
@@ -96,14 +104,16 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
     - title: "How to Make Your Results Reproducible with UCR-Star and Spider"
       time: "11-01 09:10 - 10:40"
       beijing: "TBD"
-      abstract: "Tomal Majumder, Ahmed Eldawy (University of California, Riverside)"      
+      authors: "Tomal Majumder, Ahmed Eldawy (University of California, Riverside)"
+      abstract: "This tutorial will be organized into two parts. The first part will exhibit the key features of UCR-star and Spider where participants can get hands-on experience in interacting with real spatial datasets, generating synthetic data with varying distributions, and downloading them to a local machine or a remote server. The second part will explore the integration of both UCR-Star and Spider into existing systems such as QGIS and Apache AsterixDB. "      
     - title: "Break"
       time: "11-01 10:40 - 11:00"
       beijing: "TBD"
-      abstract: "Break"
+      abstract: ""
       file:
     - title: "WebGL-Powered Large-Scale Data Visualization with deck.gl"
       time: "11-01 11:00 - 12:30"
+      authors: "Xiaoji Chen (Microsoft Research)"
       beijing: "TBD"
       abstract: "This workshop will come in two parts. ---Part I: Start visualizing data with deck.gl. We will talk about a few core concepts of the library and convert some datasets into interesting maps in minutes. This part demonstrates the general capability of the library. No prior experience is required; ---Part II: Advanced deck.gl applications. We will build a few custom visualization layers for real-world use cases. This part demonstrates the highly-customizable design of the library's API. Some knowledge of JavaScript and computer graphics will be helpful."
 #   file:
