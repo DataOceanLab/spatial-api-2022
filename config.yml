@@ -88,17 +88,24 @@ opportunity to give a teaser presentation of 5 minutes to attract the audience t
       #   linkedin: "http://linkedin.com/linus"
 
   schedule:
-    # - title: "Opening remarks"
-    #   time: "11-02 09:00"
-    #   beijing: "11-03 00:00"
-    #   duration: "10 min"
-    #   abstract: "Foreword"
-    #   file:
-    #   authors: ""
+    - title: "Opening remarks"
+      time: "11-01 09:00 - 09:10"
+      beijing: "TBD"
+      abstract: "Foreword"
+      file:
     - title: "WebGL-Powered Large-Scale Data Visualization with deck.gl"
-      time: "TBD"
+      time: "11-01 09:10 - 10:40"
       beijing: "TBD"
       abstract: "This workshop will come in two parts. ---Part I: Start visualizing data with deck.gl. We will talk about a few core concepts of the library and convert some datasets into interesting maps in minutes. This part demonstrates the general capability of the library. No prior experience is required; ---Part II: Advanced deck.gl applications. We will build a few custom visualization layers for real-world use cases. This part demonstrates the highly-customizable design of the library's API. Some knowledge of JavaScript and computer graphics will be helpful."
+    - title: "Break"
+      time: "11-01 10:40 - 11:00"
+      beijing: "TBD"
+      abstract: "Break"
+      file:
+    - title: "How to Make Your Results Reproducible with UCR-Star and Spider"
+      time: "11-01 11:00 - 12:30"
+      beijing: "TBD"
+      abstract: "Tomal Majumder, Ahmed Eldawy (University of California, Riverside)"
     #   file:
     #   prep: "https://github.com/SafeGraphInc/sigspatial-2021-cafe-analysis"
     #   authors: "SafeGraph"
